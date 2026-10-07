@@ -1,4 +1,26 @@
+# Buildroot source tree, downloaded archives, and generated build state.
 buildroot-2025.02.15/
 buildroot-2025.02.15.tar.xz
+buildroot/buildroot-2025.02.15/output/
+buildroot/buildroot-2025.02.15/dl/
+buildroot/buildroot-2025.02.15/build.log
+buildroot/buildroot-2025.02.15/.config*
+buildroot/buildroot-2025.02.15/..config.tmp
+buildroot/buildroot-2025.02.15/.defconfig
+buildroot/buildroot-2025.02.15/local.mk
+
+# Linux source archive and unpacked kernel tree.
 linux/linux-6.12/linux-6.12.112.tar.xz
 linux/linux-6.12/linux-6.12.112/
+
+# Local editor and runtime leftovers.
+*.swp
+*.swo
+qemu.log
+
+
+modules/hello/*
+!modules/hello/hello.c
+!modules/hello/Makefile
+
+board/
